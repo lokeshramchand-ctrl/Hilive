@@ -1,0 +1,39 @@
+name: hilive
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  hive_flutter: ^1.1.0
+  flutter_slidable: ^3.1.0
+  flutter_heatmap_calendar: ^1.0.5
+  google_fonts: ^6.2.1
+  table_calendar: ^3.1.2
+  flutter_launcher_icons: ^0.13.1
+  provider: ^6.1.2
+  function_tree: ^0.9.1
+  math_expressions: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - lib/images/reciprocal.png
+    - lib/images/sqroot.png
+    - lib/images/square.png
+
+flutter_launcher_icons: 
+  android: "launcher_icon"
+  ios: true
+  image_path: "icons/icon.png"
